@@ -1,0 +1,41 @@
+@import "@fontsource-variable/nunito";
+@import "@fontsource/krona-one";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html, body {
+        @apply m-0 p-0;
+    }
+    
+    input::-ms-reveal {
+        @apply hidden;
+    }
+
+    ::-webkit-scrollbar {
+        @apply size-2;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-neutral-800 rounded-md;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-neutral-700 rounded-md border-2 border-neutral-800;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-indigo-600;
+    }
+
+    ::-webkit-scrollbar-button {
+        @apply hidden w-0 h-0;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #262626 #404040;
+    }
+}
