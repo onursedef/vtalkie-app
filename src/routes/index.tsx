@@ -44,7 +44,7 @@ function RouteComponent() {
 
         {/* Content area */}
         <div className="relative flex flex-col flex-1 bg-neutral-800">
-          <div className="absolute top-0 right-0 left-0 px-4 py-3 flex items-center justify-between font-semibold border-b border-neutral-700 shadow-lg bg-neutral-800">
+          <div className="absolute top-0 right-0 left-0 px-4 pt-1 pb-2 flex items-center justify-between font-semibold border-b border-neutral-700 shadow-lg bg-neutral-900/35">
             <div className="inline-flex items-center">
               <LockClosedIcon className="size-3 text-neutral-400" />
               <RiHashtag className="size-3 text-neutral-400 mr-2" />
@@ -86,7 +86,7 @@ function RouteComponent() {
               </div>
             </div>
           </div>
-          <div className="w-full h-full flex mt-16">
+          <div className="w-full h-full flex mt-12">
             {/* Chat */}
             <div className="flex-1 bg-neutral-800">
               <div className="h-full flex flex-col">
