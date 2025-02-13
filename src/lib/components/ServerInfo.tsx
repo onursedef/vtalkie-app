@@ -186,7 +186,7 @@ export const ServerInfo = () => {
         {showGuildMenu && (
           <div
             id="guildMenu"
-            className={`absolute mt-16 ml-4 mr-4 p-2 bg-neutral-800 shadow-2xl flex gap-1 flex-col w-[calc(100%-2rem)] rounded-md text-xs border border-neutral-700`}
+            className={`absolute mt-16 ml-4 mr-4 p-2 bg-neutral-800 shadow-2xl flex gap-1 flex-col w-[calc(100%-2rem)] rounded-md text-sm border border-neutral-700`}
           >
             <button className="group inline-flex w-full justify-between items-center p-2 hover:bg-indigo-500 rounded-md">
               <p className="text-indigo-400 group-hover:text-white">

@@ -21,9 +21,9 @@ export const ChatInput = ({ channel, isShowMemberListOpen }: ChatInputProps) => 
       </div>
       <button
         type="submit"
-        className="p-3 bg-neutral-600 hover:bg-neutral-700 rounded-full hover:bg-primary-700 transition-colors"
+        className="p-3 hover:bg-neutral-700 rounded-full hover:bg-primary-700 transition-colors"
       >
-        <RiSendPlaneFill className="size-4 text-white rotate-45" />
+        <RiSendPlaneFill className="size-4 text-white rotate-45 -translate-x-[2px]" />
       </button>
     </div>
   );
