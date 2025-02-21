@@ -53,7 +53,7 @@ export const Titlebar = () => {
     <div
       data-tauri-drag-region="true"
       id="titlebar"
-      className="flex items-center justify-between bg-neutral-950 pl-3"
+      className="flex items-center justify-between bg-neutral-950 pl-3 z-50"
     >
       <p className="py-1 text-neutral-400 text-xs font-krone-one tracking-wide" style={{
         "WebkitAppRegion": "drag"
@@ -62,6 +62,7 @@ export const Titlebar = () => {
       </p>
       <div className="inline-flex">
         <button
+          type="button"
           id="titlebar-minimize"
           className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-6 w-10 hover:bg-neutral-800 transition-colors duration-200"
         >
@@ -71,6 +72,7 @@ export const Titlebar = () => {
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
+            <title>Minimize</title>
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -80,6 +82,7 @@ export const Titlebar = () => {
           </svg>
         </button>
         <button
+          type="button"
           id="titlebar-maximize"
           className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-6 w-10 hover:bg-neutral-800 transition-colors duration-200 scale-x-[-1]"
         >
@@ -94,6 +97,7 @@ export const Titlebar = () => {
               stroke="currentColor"
               className="size-4 text-neutral-400 group-hover:text-white"
             >
+              <title>Toggle Maximize</title>
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -103,6 +107,7 @@ export const Titlebar = () => {
           )}
         </button>
         <button
+          type="button"
           id="titlebar-close"
           className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-6 w-10 hover:bg-red-500 transition-colors duration-200"
         >
@@ -112,6 +117,7 @@ export const Titlebar = () => {
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
+            <title>Close</title>
             <path
               strokeLinecap="round"
               strokeLinejoin="round"

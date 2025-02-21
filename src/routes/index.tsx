@@ -52,7 +52,7 @@ function RouteComponent() {
             {/* Search */}
             <div className="flex gap-4 w-96 justify-end">
               <div className="group relative flex items-center justify-center">
-                <button onClick={() => setShowMemberList(!showMemberList)} className="hover:bg-neutral-700/50 p-1.5 rounded-md transition-colors">
+                <button type="button" onClick={() => setShowMemberList(!showMemberList)} className="hover:bg-neutral-700/50 p-1.5 rounded-md transition-colors">
                   <UsersIcon className="size-4 text-neutral-400" />
                 </button>
                 <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 absolute -bottom-8 -left-10 px-3 py-2 bg-neutral-950/50 backdrop-blur-sm rounded-md text-xs z-[9999] transition-all whitespace-nowrap">
@@ -68,7 +68,7 @@ function RouteComponent() {
                 />
               </div>
               <div className="group relative flex items-center">
-                <button className="hover:bg-neutral-700/50 p-1.5 rounded-md transition-colors">
+                <button type="button" className="hover:bg-neutral-700/50 p-1.5 rounded-md transition-colors">
                   <RiAtLine className="size-4 text-neutral-400" />
                 </button>
                 <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 absolute -bottom-8 -left-5 px-3 py-2 bg-neutral-950/50 backdrop-blur-sm rounded-md text-xs z-[9999] transition-all">
@@ -76,7 +76,7 @@ function RouteComponent() {
                 </div>
               </div>
               <div className="group relative flex items-center">
-                <button className="hover:bg-neutral-700/50 p-1.5 rounded-md transition-colors">
+                <button type="button" className="hover:bg-neutral-700/50 p-1.5 rounded-md transition-colors">
                   <RiQuestionMark className="size-4 text-neutral-400" />
                 </button>
                 <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 absolute -bottom-8 -left-2 px-3 py-2 bg-neutral-950/50 backdrop-blur-sm rounded-md text-xs z-[9999] transition-all">
@@ -138,7 +138,7 @@ function RouteComponent() {
                             alt="Test"
                             className="size-8 rounded-full"
                           />
-                          <div className="absolute bottom-0 right-0 w-2 h-2 bg-green-500 ring-2 ring-neutral-950 rounded-full"></div>
+                          <div className="absolute bottom-0 right-0 w-2 h-2 bg-green-500 ring-2 ring-neutral-950 rounded-full" />
                         </div>
                         <div className="flex flex-col">
                           <p className="text-red-500 text-sm">irukaga</p>
