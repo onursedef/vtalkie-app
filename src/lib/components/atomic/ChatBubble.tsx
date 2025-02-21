@@ -16,13 +16,13 @@ export const ChatBubble = ({ userImage, userImageGif, username, date, children}:
         <img
           src={userImage}
           alt="Test"
-          className={`size-12 rounded-full ${userImageGif != null || userImageGif != undefined ? 'group-hover/message:hidden' : ''}`}
+          className={`size-10 rounded-full ${userImageGif != null || userImageGif != undefined ? 'group-hover/message:hidden' : ''}`}
         />
         {userImageGif != null || userImageGif != undefined ? (
             <img
             src={TestGif}
             alt="Test"
-            className="size-12 rounded-full hidden group-hover/message:block"
+            className="size-10 rounded-full hidden group-hover/message:block"
           />
         ) : null}
       </div>
@@ -33,7 +33,7 @@ export const ChatBubble = ({ userImage, userImageGif, username, date, children}:
             {date}
           </p>
         </div>
-        <p className="prose leading-3 prose-invert select-text">
+        <p className="prose-sm leading-3 prose-invert select-text">
           {children}
         </p>
       </div>
