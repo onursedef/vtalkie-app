@@ -111,7 +111,7 @@ const TooltipButton = ({ placement, content, color, children }: TooltipButtonPro
           <div
             ref={tooltipRef}
             className={`fixed px-3 py-2 ${bgColorClass} backdrop-blur-sm rounded-md text-xs 
-              pointer-events-none transition-all duration-150 
+              pointer-events-none transition-opacity duration-150 
               shadow-lg
               ${showTooltip ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-1'}`}
             style={{
