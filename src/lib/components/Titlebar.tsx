@@ -55,7 +55,7 @@ export const Titlebar = () => {
       id="titlebar"
       className="flex items-center justify-between bg-neutral-950 pl-3"
     >
-      <p className="py-2 text-neutral-400 text-sm font-krone-one tracking-wide" style={{
+      <p className="py-1 text-neutral-400 text-xs font-krone-one tracking-wide" style={{
         "WebkitAppRegion": "drag"
       }}>
         vtalkie
@@ -63,10 +63,10 @@ export const Titlebar = () => {
       <div className="inline-flex">
         <button
           id="titlebar-minimize"
-          className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-8 w-12 hover:bg-neutral-800 transition-colors duration-200"
+          className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-6 w-10 hover:bg-neutral-800 transition-colors duration-200"
         >
           <svg
-            className="w-4 h-4 text-neutral-400 group-hover:text-white"
+            className="size-4 text-neutral-400 group-hover:text-white"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ export const Titlebar = () => {
         </button>
         <button
           id="titlebar-maximize"
-          className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-8 w-12 hover:bg-neutral-800 transition-colors duration-200 scale-x-[-1]"
+          className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-6 w-10 hover:bg-neutral-800 transition-colors duration-200 scale-x-[-1]"
         >
           {!maximized ? (
             <div className="size-3 border border-neutral-400 rounded-sm group-hover:border-white" />
@@ -92,7 +92,7 @@ export const Titlebar = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-4 h-4 text-neutral-400 group-hover:text-white"
+              className="size-4 text-neutral-400 group-hover:text-white"
             >
               <path
                 strokeLinecap="round"
@@ -104,10 +104,10 @@ export const Titlebar = () => {
         </button>
         <button
           id="titlebar-close"
-          className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-8 w-12 hover:bg-red-500 transition-colors duration-200"
+          className="group appearance-none focus:outline-none focus:ring-0 focus:border-none inline-flex items-center justify-center h-6 w-10 hover:bg-red-500 transition-colors duration-200"
         >
           <svg
-            className="w-4 h-4 text-neutral-400 group-hover:text-white"
+            className="size-4 text-neutral-400 group-hover:text-white"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
