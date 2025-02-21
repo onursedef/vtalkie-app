@@ -8,7 +8,7 @@ type ChatInputProps = {
 
 export const ChatInput = ({ channel, isShowMemberListOpen }: ChatInputProps) => {
   return (
-    <div className={`absolute bottom-0 ${isShowMemberListOpen ? 'right-60' : 'right-0'} left-0 flex items-center gap-2 p-4 border-t border-neutral-700 bg-neutral-900/25`}>
+    <div className={`absolute bottom-0 ${isShowMemberListOpen ? 'right-60' : 'right-0'} left-0 flex items-center gap-2 p-4 border-t border-neutral-700 bg-neutral-900/25 transition-all`}>
       <div className="flex items-center pl-2 py-2 w-full bg-neutral-900 rounded-md ">
         <div className="w-fit h-fit p-2 bg-neutral-600 hover:bg-neutral-700 rounded-full transition-colors">
           <PlusIcon className="size-4 text-white" />
