@@ -32,3 +32,4 @@ yarn.lock
 pnpm-lock.yaml
 bun.lockb
 src-tauri/Cargo.lock
+bun.lock
