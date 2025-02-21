@@ -7,10 +7,9 @@ import {
   RiAtLine,
   RiHashtag,
   RiQuestionMark,
-  RiSendPlaneFill,
   RiSpotifyFill,
 } from "@remixicon/react";
-import { LockClosedIcon, PlusIcon, UsersIcon } from "@heroicons/react/24/solid";
+import { LockClosedIcon, UsersIcon } from "@heroicons/react/24/solid";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import TestImage from "@assets/test.png";
 import TestGif from "@assets/test.gif";
