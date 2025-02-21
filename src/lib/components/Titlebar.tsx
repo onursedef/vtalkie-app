@@ -55,7 +55,9 @@ export const Titlebar = () => {
       id="titlebar"
       className="flex items-center justify-between bg-neutral-950 pl-3"
     >
-      <p className="py-2 text-neutral-400 text-sm font-krone-one tracking-wide">
+      <p className="py-2 text-neutral-400 text-sm font-krone-one tracking-wide" style={{
+        "WebkitAppRegion": "drag"
+      }}>
         vtalkie
       </p>
       <div className="inline-flex">
